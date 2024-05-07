@@ -1,4 +1,4 @@
-![screenshot](https://github.com/wataruyo/nuka-coka-website/screenshot.png)
+![screenshot](screenshot.png)
 
 # React + Vite
 
