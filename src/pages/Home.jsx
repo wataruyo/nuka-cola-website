@@ -35,7 +35,7 @@ export default function Home() {
       </section>
 
       {/* Products */}
-      <motion.section initial={{opacity: 0}} whileInView={{opacity: 1}} className="lg:grid grid-cols-2 flex flex-col py-10">
+      <section className="lg:grid grid-cols-2 flex flex-col py-10">
         <div className="flex flex-col justify-center items-center mb-5">
           <h2 className="text-4xl font-extrabold">Find Your Favorite Nukas!</h2>
           <p className="mx-9 my-3">Nuka-Cola is the flagship product of the Nuka-Cola Corporation and one of the symbols of United States culture. Introduced in 2044, it rapidly dominated the soft drink market, eventually becoming the most popular soda on the market and a staple of American culture. Bottled and distributed nationwide, Nuka-Cola was available in such numbers that even two centuries after the Great War put a stop to all major bottling operations, Nuka-Cola bottles can still be found in the wastelands in large quantities. In the aftermath of the Great War, Nuka-Cola bottle caps became the de facto currency in most post-War societies.</p>
@@ -46,7 +46,7 @@ export default function Home() {
         <div>
           <img src="src\assets\images\nuka-cola-products.jpg" alt="nuka-cola-prodcuts" className="lg:rounded-l-full rounded-lg" />
         </div>
-      </motion.section>
+      </section>
 
       {/* Sustainability */}
       <section className="lg:grid grid-cols-2 flex flex-col py-10">
